@@ -1,4 +1,14 @@
 # Forma de Soma-de-Produtos
 
-\(p. 101\)
+Uma expressão booleana encontra-se na forma de **soma-de-produtos** quando consiste de dois ou mais termos AND \(produtos\) conectados por uma operação OR \(soma\). Alguns exemplos:
+
+* $$ABC+\bar{A}B\bar{C}$$
+* $$AB+\bar{A}B\bar{C}+\bar{C}\bar{D}+D$$
+* $$\bar{A}B+C\bar{D}+EF+GK+H\bar{L}$$
+
+
+
+
+
+
 
