@@ -1,28 +1,4 @@
 # Circuitos Lógicos Combinacionais
 
-## Forma de Soma-de-Produtos
-
-\(p. 101\)
-
-## Simplificação de Circuitos Lógicos
-
-\(p. 102\)
-
-## Simplificação Algébrica
-
-\(p. 102-106\)
-
-## Projetando Circuitos lógicos combinacionais
-
-\(p. 106-112\)
-
-## Características básicas de CIs Digitais
-
-\(p. 129-134\)
-
-## Dispositivos Lógicos Programáveis
-
-\(p. 143-148\)
-
-
+Circuitos lógicos formados por portas lógicas são chamados combinacionais porque, em qualquer instante de tempo, o nível lógico da saída do circuito depende da combinação dos níveis lógicos presentes nas entradas. Um circuito combinacional não possui a característica de **memória**, portanto sua saída depende apenas dos valores atuais das entradas.
 
