@@ -1,4 +1,4 @@
-# Summary
+# Sumário
 
 * [Introdução](README.md)
 * [Circuitos Lógicos Combinacionais](circuitos-logicos-combinacionais.md)
