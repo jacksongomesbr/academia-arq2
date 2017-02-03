@@ -1,6 +1,6 @@
 # Projetando Circuitos lógicos combinacionais
 
-Qualquer problema lógico pode ser resolvido usando o seguinte proceimento passo a passo:
+Qualquer problema lógico pode ser resolvido usando o seguinte procedimento passo-a-passo:
 
 1. Interprete o problema e construa uma tabela-verdade para descrever seu funcionamento
 2. Escreva o termo AND \(produto\) para cada caso em que a saída seja 1
@@ -9,8 +9,4 @@ Qualquer problema lógico pode ser resolvido usando o seguinte proceimento passo
 5. Implemente o circuito para a expressão final, simplificada
 
 Exemplo: projetando circuito lógico considerando três entradas \(A, B e C\).
-
-
-
-
 
