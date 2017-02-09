@@ -38,9 +38,9 @@ Portanto, o estado atual da saída depende do que aconteceu anteriormente nas en
 
 A partir do estado atual do circuito, podem ser executadas as operações:
 
-* **SETAR** o FF: SET = 0
-* **RESETAR** o FF: RESET = 0
-* **SETAR e RESETAR** simultaneamente o FF: SET = RESET = 0
+* **SETAR** o FF: **SET = 0**
+* **RESETAR** o FF: **RESET = 0**
+* **SETAR e RESETAR** simultaneamente o FF: **SET = RESET = 0**
 
 As duas primeiras operações são aceitas. Entretanto a última leva o FF ao **estado indesejado**, pois faria com que $$Q = \overline{Q} = 1$$.
 
@@ -80,7 +80,7 @@ O Flip-Flop T \(Toggle ou Alternador\) é um tipo mais simples de FF que funcion
 
 A principal aplicação deste FF é em contadores.
 
-Para ilustrar a aplicação do FF T acesse o seguinte circuito criado pela ferramenta Logic Lab: [http://www.neuroproductions.be/logic-lab/index.php?id=71414](http://www.neuroproductions.be/logic-lab/index.php?id=71414). 
+Para ilustrar a aplicação do FF T acesse o seguinte circuito criado pela ferramenta Logic Lab: [http://www.neuroproductions.be/logic-lab/index.php?id=71414](http://www.neuroproductions.be/logic-lab/index.php?id=71414).
 
 > Exercício:
 >
