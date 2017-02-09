@@ -36,5 +36,3 @@ As entradas SET e RESET funcionam assim:
 
 
 
-
-
