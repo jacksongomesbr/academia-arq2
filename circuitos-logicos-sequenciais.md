@@ -48,20 +48,6 @@ A figura a seguir mostra o FF NAND e sua tabela-verdade.
 
 ![](/assets/ff-nand-tabela-verdade.png)
 
-Utilizando a ferramenta WaveDrom \(http://wavedrom.com\) informe o código a seguir para gerar um diagrama de tempo do FF NAND. Verifique seu funcionamento.
-
-```
-{signal: [
-  {name: "SET",   wave: "lhl....hl."},
-  {name: "RESET", wave: "l..hlhl..."},
-  {name: "Q",     wave: "lh.l...h.."}
-]}
-```
-
-> Exercício:
->
-> Gere o diagrama de tempo das portas AND, OR e NOT.
-
 ## Flip-Flop com portas NOR
 
 O Flip-Flop com portas NOR também é chamado **latch com portas NOR** e sua composição é ilustrada pela figura a seguir.
@@ -75,7 +61,34 @@ O funcionamento do FF NOR ocorre da seguinte forma:
 * quando **RESET = 1**, o FF vai para o estado BAIXO
 * quando **SET = RESET = 1**, o FF vai para estado indesejado, pois tenta gerar $$Q = \overline{Q} = 0$$
 
+Utilizando a ferramenta WaveDrom \([http://wavedrom.com](http://wavedrom.com\)\) informe o código a seguir para gerar um diagrama de tempo do FF NOR. Verifique seu funcionamento.
 
+```
+{signal: [
+  {name: "SET",   wave: "lhl....hl."},
+  {name: "RESET", wave: "l..hlhl..."},
+  {name: "Q",     wave: "lh.l...h.."}
+]}
+```
+
+## Flip-Flop T \(Toggle\)
+
+O Flip-Flop T \(Toggle ou Alternador\) é um tipo mais simples de FF que funciona da seguinte forma:
+
+* Possui uma entrada $$T$$ e duas saídas $$Q$$ e $$\overline{Q}$$
+* Se **T = 1** então alterna \(toggle\) o valor de $$Q$$
+
+A principal aplicação deste FF é em contadores.
+
+Para ilustrar a aplicação do FF T acesse o seguinte circuito criado pela ferramenta Logic Lab: [http://www.neuroproductions.be/logic-lab/index.php?id=71414](http://www.neuroproductions.be/logic-lab/index.php?id=71414). 
+
+> Exercício:
+>
+> a\) Gere o diagrama de tempo das portas AND, OR e NOT.
+>
+> b\) Gere o diagrama de tempo do FF NAND
+>
+> c\) Gere o diagrama de tempo do FF T
 
 
 
