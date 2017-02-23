@@ -57,21 +57,33 @@ A expressão pode ser simplificada para:
 $$
 S = \overline{A}(\overline{B}C_{IN} + B\overline{C_{IN}}) + A(\overline{B}\overline{C_{IN}}+BC_{IN})
 $$
+
+
 Utilizando outras operações e simplificações, temos, por fim:
 
 
 $$
 S = A \oplus (B \oplus C_{IN})
 $$
+
+
 A saída $$C_{OUT}$$ é expressa pela equação:
 
 
 $$
 C_{OUT} = AB + AC_{IN} + BC_{IN}
 $$
+
+
 A figura a seguir apresenta o diagrama de circuitos para o somador completo.
 
 ![](/assets/somador-completo-circuito.png)
+
+Outros circuitos:
+
+* meio-somador \(HA, do inglês _half adder_\)
+* subtrator completo \(FS, do inglês _full subtractor_\)
+* meio-subtrator \(HA, do inglês _half subtractor_\)
 
 
 
