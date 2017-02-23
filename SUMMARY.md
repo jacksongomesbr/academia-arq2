@@ -9,4 +9,5 @@
   * [Dispositivos Lógicos Programáveis](dispositivos-logicos-programaveis.md)
 * [Circuitos Lógicos Sequenciais](circuitos-logicos-sequenciais.md)
 * [Aritmética Digital](aritmetica-digital.md)
+* [Circuitos Aritméticos](circuitos-aritmeticos.md)
 
