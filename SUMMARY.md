@@ -8,4 +8,5 @@
   * [Características básicas de CIs Digitais](caracteristicas-basicas-de-cis-digitais.md)
   * [Dispositivos Lógicos Programáveis](dispositivos-logicos-programaveis.md)
 * [Circuitos Lógicos Sequenciais](circuitos-logicos-sequenciais.md)
+* [Aritmética Digital](aritmetica-digital.md)
 
