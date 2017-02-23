@@ -73,26 +73,27 @@ Qual o complemento de 2 do número 101100?
 A representação de números com sinal usando complemento de dois funciona da seguinte forma:
 
 * **Se o número for positivo: **
+
   * a magnitude é representada na forma binária direta
   * um bit de sinal 0 é colocado em frente ao bit mais significativo
 
 * **Se o número for negativo:**
+
   * a magnitude é representada na forma do complemento de 2
   * um bit de sinal 1 é colocado em frente ao bit mais significativo
 
- A figura a seguir ilustra esse processo.
+  A figura a seguir ilustra esse processo.
 
 ![](/assets/numeros-com-sinal-com-complemento-de-2.png)
 
-Outras operações:
+Outras operações e representações:
 
 * extensão de sinal
 * negação
 * adição e subtração na forma de complemento de 2
 * multiplicação
 * divisão
-* 
-
+* código BCD
 
 
 
