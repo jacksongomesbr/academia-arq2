@@ -23,7 +23,9 @@ Computadores e calculadoras digitais realizam operações de adição sobre dois
 
 Em cada passo do processo de adição, três bits são somados: o bit da 1a. parcela, o da 2a. parcela e o carry \(proveniente da posição anterior\). O resultado da adição produz dois bits: um da soma e um de carry \(que será somado aos bits da próxima posição\). O circuito da figura a seguir mostra como esse processo pode ser repetido.
 
-![](/assets/somador-paralelo-diagrama-de-blocos.png\)As variáveis $$A_4, ..., A_0$$ representam os bits da 1a. parcela \(armazenados no registrador acumulador\). As variáveis $$B_4,..., B_0$$ representam os bits da 2a. parcela \(armazenados no registrador B\). As variáveis $$C_4,...,C_0$$ representam os bits de carry. As variáveis $$S_4,...,S_0$$ são os bits de saída do resultado \(para cada posição\).
+![](/assets/somador-paralelo-diagrama-de-blocos.png)
+
+As variáveis $$A_4, ..., A_0$$ representam os bits da 1a. parcela armazenados no registrador acumulador. As variáveis $$B_4,..., B_0$$ representam os bits da 2a. parcela armazenados no registrador B. As variáveis $$C_4,...,C_0$$ representam os bits de carry. As variáveis $$S_4,...,S_0$$ são os bits de saída do resultado para cada posição\).
 
 Os bits correspondentes à 1a. e 2a. parcela são enviados para um circuito lógico chamado **somador completo** \(FA, do inglês _full adder_\) com um bit de carry da posição anterior.
 

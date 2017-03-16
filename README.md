@@ -10,6 +10,7 @@ O conteúdo deste livro é baseado em várias fontes:
 
 Atividades práticas podem utilizar estas ferramentas:
 
+* Logisim: [http://www.cburch.com/logisim/pt/](http://www.cburch.com/logisim/pt/) 
 * The Logic Lab: [http://www.neuroproductions.be/logic-lab](http://www.neuroproductions.be/logic-lab)
 * Wavedrom: [http://wavedrom.com](http://wavedrom.com)
 
