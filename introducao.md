@@ -81,7 +81,33 @@ Mantendo o mesmo código do projeto anterior, inicie a simulação para ver o re
 
 ## Projeto 3: Interação com o usuário por meio de botões
 
-Com base no Projeto 2, adicione mais fios e o componente Pushbutton.
+Com base no Projeto 2, adicione mais fios e o componente Pushbutton. Monte o hardware seguindo a figura a seguir.
 
+![](/assets/projeto-3-hardware.png)
 
+O código é modificado para o seguinte:
+
+```
+int led = 13;
+int button = 2;
+
+void setup() {
+  pinMode(led, OUTPUT);
+  pinMode(button, INPUT);
+}
+
+void loop() {
+  if (digitalRead(button) == HIGH) {
+    digitalWrite(led, HIGH);
+  } else {
+    digitalWrite(led, LOW);
+  }
+}
+```
+
+A variável `button` tem o valor `2`, indicando que está associada ao pino 2. Esse pino é definido no modo de `INPUT` \(entrada\).
+
+A função `digitalRead(pino)` retorna o valor de um pino \(`HIGH` ou `LOW`\) conforme a passagem de corrente elétrica por ele.
+
+Compile e faça upload do código para iniciar a simulação. Clique e segure o botão e note o comportamento do led.
 
