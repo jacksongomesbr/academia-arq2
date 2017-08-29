@@ -15,7 +15,9 @@ Na **adição binária**, ocorrem os mesmos passos, entretanto, podem ocorrer ap
 * $$1+1=10$$
 * $$1+1+1=11$$
 
-Nos dois últimos casos há a presença do carry de 1 para a próxima posição. Alguns exemplos:
+Nos dois últimos casos há a presença do carry de 1 para a próxima posição. 
+
+Alguns exemplos de aplicação da adição:
 
 ![](/assets/adicaco-binaria-exemplos.png)
 
@@ -24,9 +26,21 @@ Na subtração binária a situação é semelhante e também há quatro situaç�
 * $$0-0=0$$
 * $$1-1=0$$
 * $$1-0=1$$
-* $$0-1=1$$
+* $$0-1=-1$$
 
-No último caso ocorre o "tomar emprestado" da próxima coluna. Alguns exemplos:
+No último caso ocorre o "tomar emprestado" \(**borrow**\) da próxima coluna, o que faz com que o resultado seja negativo. Neste momento a representação do número negativo segue a mesma forma intuitiva em base 10: usando o sinal "-".
+
+Um exemplo mais complicado:  $$110 - 101$$. Para encontrar a solução, vamos por partes, da direita para a esquerda:
+
+1. como não podemos calcular $$0-1$$ diretamente, precisamos pedir emprestado da casa anterior, à esquerda. Assim, o primeiro número ficaria: $$1010$$ sendo que o último $$10$$ é visto como um número só, não como duas novas casas no número.
+2. fazemos a subtração dos números mais à direita: $$10-1=1$$
+3. fazemos a subtração dos números da próxima casa à esquerda: $$0-0=0$$
+4. fazemos a subtração dos números da próxima casa à esquerda: $$1-1=0$$
+5. o resultado é o número $$-001$$ ou $$-1$$
+
+O processo de tomar emprestado repete-se sempre que necessário.
+
+Alguns exemplos de aplicações da subtração:
 
 ![](/assets/exemplos-subtracao-binaria.png)
 
