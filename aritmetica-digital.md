@@ -32,7 +32,7 @@ No último caso ocorre o "tomar emprestado" \(**borrow**\) da próxima coluna. C
 
 Um exemplo mais complicado:  $$110 - 101$$. Para encontrar a solução, vamos por partes, da direita para a esquerda:
 
-1. como não podemos calcular $$0-1$$ diretamente, precisamos pedir emprestado da casa anterior, à esquerda. Assim, o primeiro número ficaria: $$1010$$ sendo que o último $$10$$ é visto como um número só, não como duas novas casas no número.
+1. como não podemos calcular $$0-1$$ diretamente, precisamos pedir emprestado da casa anterior, à esquerda. Assim, as casas do primeiro número teriam: $$1,0,10$$ 
 2. fazemos a subtração dos números mais à direita: $$10-1=1$$
 3. fazemos a subtração dos números da próxima casa à esquerda: $$0-0=0$$
 4. fazemos a subtração dos números da próxima casa à esquerda: $$1-1=0$$
@@ -84,7 +84,7 @@ A representação do sistema sinal-magnitude não é utilizada na prática. O **
 
 O complemento de 2 de um número binário é obtido em dois passos:
 
-1. Substituir cada 0 por 1 e cada 1 por 0, ou seja, inverter o número
+1. Substituir cada 0 por 1 e cada 1 por 0, ou seja, inverter o número \(também chamado **complemento de 1**\)
 2. Adicionar o número 1 na posição do bit menos significativo \(mais à direita\).
 
 Exemplo:
@@ -110,6 +110,31 @@ A representação de números com sinal usando complemento de dois funciona da s
   A figura a seguir ilustra esse processo.
 
 ![](/assets/numeros-com-sinal-com-complemento-de-2.png)
+
+## Resolvendo subtrações com complemento de 2
+
+Para utilizar o complemento de 2 para resolver subtrações vamos utilizar, como exemplo, a expressão:$$101-11$$. A primeira observação é que o número de algarismos dos dois números é diferente, então acrescentamos $$0$$ à esquerda, resultando em $$101-011$$.
+
+Na sequência, aplicamos o complemento de 2 no segundo número $$011$$:
+
+1. complemento de 1: $$100$$
+2. complemento de 2: $$100+1=101$$
+
+Ainda, trocamos a subtração por uma adição: $$101+101=1010$$.
+
+Para concluir, retiramos o primeiro dígito mais à esquerda, resultando em: $$010=10$$
+
+Assim, $$101-11=10$$
+
+## Dica de ouro para subtração
+
+A maioria dos exemplos anteriores envolveu subtrair um número menor de um maior. Quando for necessário subtrair um número maior de um menor, ou seja, o número da esquerda é menor do que o da direita, a dica é:  inverta a ordem dos operandos, realize a subtração e, por fim, adicione o sinal "-" de subtração. Para exemplificar, considere: $$11-100$$
+
+1. Inverta a ordem: $$100-11$$
+2. Calcule a subtração: $$100-11=1$$
+3. Adicione o sinal "-", resultando em: $$11-100=-1$$
+
+Como fica a representação de $$-1$$ em complemento de 2 considerando um byte \(oito bits\)?
 
 Outras operações e representações:
 
