@@ -134,6 +134,8 @@ A maioria dos exemplos anteriores envolveu subtrair um número menor de um maior
 2. Calcule a subtração: $$100-11=1$$
 3. Adicione o sinal "-", resultando em: $$11-100=-1$$
 
+Em outras palavras, a equação $$x-y$$ é representada na forma $$-(y-x)$$. Lembre-se que a subtração não é comutativa.
+
 Como fica a representação de $$-1$$ em complemento de 2 considerando um byte \(oito bits\)?
 
 Outras operações e representações:
